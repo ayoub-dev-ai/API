@@ -16,11 +16,11 @@ router.get("/gpt4", (req, res) => {
     axios.get('https://api.bk9.site/ai/gpt4?q='+text)
         .then((response) => {
             const responseData = response.data; //هنا يأخذ المعلومات من الرابط فوق ويحطهم عندك
-            res.send({status: true, owner: '@إسمك', BK9: responseData});
+            res.send({status: true, owner: '@ayoub.eeea', BK9: responseData});
         })
         .catch((err) => {
             console.log(err);
-            res.status(500).send({status: false, owner: '@إسمك', err: 'الخادم مشغول الآن. حاول مرة أخرى في وقت لاحق!'});
+            res.status(500).send({status: false, owner: '@ayoub.eeea', err: 'الخادم مشغول الآن. حاول مرة أخرى في وقت لاحق!'});
         });
 });
 

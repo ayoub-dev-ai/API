@@ -21,12 +21,10 @@ app.get("/", (req, res) => {
     <!DOCTYPE html>
     <html>
     <head>
-      <title>BK9</title>
+      <title>Ayoub</title>
     </head>
     <body>
-      <h1>احبكم</h1>
-      <p>اتمنى الكل فهم واستفاد</p>
-      <a href="${test}/gpt4?q=السلام%20عليكم">إضغط هنا</a> //localhost تعني المكان الي انت مشغل فيه الموقع
+      <h1> Hello World :) </h1>
     </body>
     </html>
   `);
